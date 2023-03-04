@@ -23,6 +23,15 @@ firstLayout = [[sg.Text('Month',background_color='orange'),sg.Text('Customer nam
                [treeFrame,laptopFrame],
                [beeFrame,waterBottleFrame]]
 
+winner = False
+
+#at the moment this only shows before the current window: doesn't appear on top
+while winner:
+    ok = sg.popup_ok('You have won x',modal = True)
+    print("OK",ok)
+    if ok=="OK":
+        break
+
 sg.Window(title="Sainsburys Loyalty Rewards", layout = firstLayout, margins=(100, 50)).read()
 
 
