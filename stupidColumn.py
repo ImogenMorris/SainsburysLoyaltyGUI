@@ -8,7 +8,11 @@ productLayout = [
                [productDatabase.teddyFrame, productDatabase.stickerFrame, productDatabase.voucher50Frame],
                [productDatabase.voucher100Frame, productDatabase.voucher200Frame]
                ]
-
-columnLayout = [[sg.Column(layout=productLayout,scrollable=True,vertical_scroll_only=True,element_justification='left')]]
-
-sg.Window(title="Sainsburys Loyalty Rewards", layout=columnLayout, size=(500,300)).read()
+layout=[[sg.Column(productLayout,scrollable=True)]]
+window = sg.Window('Column Example', layout, size=(500,300))
+while True:
+   event, values = window.read()
+   print (event, values)
+   if event in (sg.WIN_CLOSED, 'Exit'):
+      break
+window.close()
