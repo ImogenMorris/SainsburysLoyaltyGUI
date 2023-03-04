@@ -5,7 +5,7 @@ treeFrame = layoutFunction.layoutF('Tree','acting_artifical_logo.png',True,200)
 
 laptopFrame = layoutFunction.layoutF('Laptop','acting_artifical_logo.png',False,5000000)
 
-beeFrame = layoutFunction.layoutF('bee','acting_artifical_logo.png',True,3400)
+beeFrame = layoutFunction.layoutF('Bee','acting_artifical_logo.png',True,3400)
 
 waterBottleFrame = layoutFunction.layoutF('Water Bottle','acting_artifical_logo.png',False,4300)
 

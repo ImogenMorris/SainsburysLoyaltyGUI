@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 
 import productDatabase
-
+#a test of the product column layout
 productLayout = [
                [productDatabase.treeFrame, productDatabase.laptopFrame, productDatabase.beeFrame],
                [productDatabase.waterBottleFrame, productDatabase.wildflowerFrame, productDatabase.earbudsFrame],
@@ -11,4 +11,4 @@ productLayout = [
 
 columnLayout = [[sg.Column(layout=productLayout,scrollable=True,vertical_scroll_only=True,element_justification='left')]]
 
-sg.Window(title="Sainsburys Loyalty Rewards", layout=columnLayout, size=(500,300)).read()
+sg.Window(title="Sainsburys Loyalty Rewards", layout=columnLayout, size=(450,300)).read()
