@@ -6,7 +6,11 @@
 
 import PySimpleGUI as sg
 
-sg.Window(title="Hello World", layout=[[]], margins=(100, 50)).read()
+#[sg.Image(—Pngtree—vector nature material cartoon trees_5563919.png))]
+
+firstLayout = [  [sg.Text('Month'),sg.Text('Customer name'),sg.Text('Points')],]
+
+sg.Window(title="Sainsburys Loyalty Rewards", layout = firstLayout, margins=(100, 50)).read()
 
 
 top.mainloop()
