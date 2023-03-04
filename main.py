@@ -1,25 +1,12 @@
 # This is a sample Python script.
 
 # Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# Hello Anthony
 
 
-import PySimpleGUI as pg
+import PySimpleGUI as sg
 
-#set theme
-pg.theme("DarkAmber")
+sg.Window(title="Hello World", layout=[[]], margins=(100, 50)).read()
 
-#layout setup
-layout = [
-    [pg.Text("Enter Name")], [pg.InputText()], pg.Button("Cancel")
 
-]
-
-#create window
-window = pg.Window("Form", layout)
-
-while True:
-    print(window.read())
-    break
-#
-
+top.mainloop()
