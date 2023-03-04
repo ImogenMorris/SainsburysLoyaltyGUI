@@ -7,7 +7,9 @@ def mainWindowAppear():
                    ,sg.Text('Points',background_color='orange')],
                [productDatabase.treeFrame,productDatabase.laptopFrame,productDatabase.beeFrame],
                [productDatabase.waterBottleFrame,productDatabase.wildflowerFrame,productDatabase.earbudsFrame],
-               [productDatabase.teddyFrame]]
+               [productDatabase.teddyFrame,productDatabase.stickerFrame,productDatabase.voucher50Frame],
+               [productDatabase.voucher100Frame,productDatabase.voucher200Frame]
+               ]
     return sg.Window(title="Sainsburys Loyalty Rewards", layout = firstLayout, margins=(100, 50)).read()
 
 

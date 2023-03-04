@@ -6,4 +6,4 @@ def layoutF(title,image,environmental,points):
         color = 'green'
     else:
         color = 'purple'
-    return sg.Frame((title+' '+str(points)+' points'), imageLayout, title_color=color)
+    return sg.Frame((title+' '+str(points)+' points'), imageLayout, background_color=color, title_color='white')
