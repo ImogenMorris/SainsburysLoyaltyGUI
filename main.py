@@ -4,9 +4,22 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-import tkinter
+import PySimpleGUI as pg
 
-Top = Tkinter.Tk()
-#code to add widgets
+#set theme
+pg.theme("DarkAmber")
 
-top.mainloop()
+#layout setup
+layout = [
+    [pg.Text("Enter Name")], [pg.InputText()], pg.Button("Cancel")
+
+]
+
+#create window
+window = pg.Window("Form", layout)
+
+while True:
+    print(window.read())
+    break
+#
+
