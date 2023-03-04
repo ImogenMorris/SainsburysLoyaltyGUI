@@ -8,5 +8,3 @@ import mainWindow
 mainWindow.mainWindowAppear()
 
 #winnerWindow.winnerWindowAppear()
-
-top.mainloop()
