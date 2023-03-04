@@ -4,11 +4,9 @@
 # Hello Anthony
 
 
-import tkinter
+import PySimpleGUI as sg
 
-Top = Tkinter.Tk()
-#code to add widgets
-
+sg.Window(title="Hello World", layout=[[]], margins=(100, 50)).read()
 
 
 top.mainloop()
