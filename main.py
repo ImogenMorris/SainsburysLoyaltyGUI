@@ -6,7 +6,7 @@
 
 import PySimpleGUI as sg
 
-#[sg.Image(—Pngtree—vector nature material cartoon trees_5563919.png))]
+#[sg.Image(tree.png))]
 
 firstLayout = [  [sg.Text('Month'),sg.Text('Customer name'),sg.Text('Points')],]
 
