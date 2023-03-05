@@ -14,7 +14,6 @@ window = sg.Window('Column Example', layout, size=(500,300))
 
 while True:
    event, values = window.read()
-   print (event)
    if event in (sg.WIN_CLOSED, 'Exit'):
       break
    if event in (productDatabase.key_list):
