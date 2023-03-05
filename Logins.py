@@ -49,7 +49,8 @@ def user_login_window():
  #       if event == ('-BUY_'+ var+'-'):
  #            for user_row in front_back_connector.table_to_list():
  #                user_points = user_row[8]
- #           mainWindow.mainWindowAppear.update(points)
+ #           mainWindow.mainWindowAppear[-POINTS-].update(points)
+##Can we reference keys from other files?
 
     window.close()
 
