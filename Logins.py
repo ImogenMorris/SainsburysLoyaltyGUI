@@ -46,6 +46,11 @@ def user_login_window():
 
         pass
 
+ #       if event == ('-BUY_'+ var+'-'):
+ #            for user_row in front_back_connector.table_to_list():
+ #                user_points = user_row[8]
+ #           mainWindow.mainWindowAppear.update(points)
+
     window.close()
 
 
@@ -61,6 +66,8 @@ def login_info_checker(submitted_username, submitted_password):
 
     return sg.popup("Wrong Login Information, Aborting")
 
+#We can use window.update to update the points and the button key event to tell us when to update the points
+#However, I am not sure where to put this
 
 
 

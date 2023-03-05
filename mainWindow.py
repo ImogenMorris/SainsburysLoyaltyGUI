@@ -16,5 +16,3 @@ def mainWindowAppear(customer_name, total_points):
                    ,sg.Text(total_points, background_color='orange')],
                column]
     return sg.Window(title="Sainsburys Loyalty Rewards", layout = windowLayout, size=(460,300),background_color='white').read()
-
-
