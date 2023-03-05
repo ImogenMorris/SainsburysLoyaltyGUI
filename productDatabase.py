@@ -22,3 +22,14 @@ voucher50Frame = layoutFunction.layoutF('50p Voucher','acting_artifical_logo.png
 voucher100Frame = layoutFunction.layoutF('£1 Voucher','acting_artifical_logo.png',False,1000)
 
 voucher200Frame = layoutFunction.layoutF('£2 Voucher','acting_artifical_logo.png',False,2000)
+
+productLayout = [
+    [treeFrame, laptopFrame, beeFrame],
+    [waterBottleFrame, wildflowerFrame, earbudsFrame],
+    [teddyFrame, stickerFrame, voucher50Frame],
+    [voucher100Frame, voucher200Frame]
+]
+
+#product_list =
+
+#def key_list():
