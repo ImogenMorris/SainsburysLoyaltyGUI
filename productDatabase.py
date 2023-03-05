@@ -31,12 +31,12 @@ product_layout = [
 ]
 
 product_list = []
-
 for list in product_layout:
     for element in list:
         product_list.append(element)
 
-def key_list():
-    for element in product_list
+key_list = []
+for element in product_list:
+    key_list.append('-BUY_'+element.Title+'-')
 
-
+print(key_list)
