@@ -10,7 +10,6 @@ productLayout = [
                ]
 layout=[[sg.Column(productLayout,scrollable=True)]]
 window = sg.Window('Column Example', layout, size=(500,300))
-#put button keys in a list, then
 
 while True:
    event, values = window.read()
